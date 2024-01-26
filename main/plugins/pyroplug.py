@@ -6,7 +6,7 @@ from .. import bot as Drone
 from main.plugins.progress import progress_for_pyrogram
 
 from pyrogram import Client, filters
-from pyrogram.errors import ChannelBanned, ChannelInvalid, ChannelPrivate, ChatIdInvalid, ChatInvalid
+from pyrogram.errors import ChannelBanned
 from pyrogram.enums import MessageMediaType
 from ethon.pyfunc import video_metadata
 from ethon.telefunc import fast_upload
